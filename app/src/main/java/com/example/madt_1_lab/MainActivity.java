@@ -1,6 +1,8 @@
 package com.example.madt_1_lab;
 
 import android.os.Bundle;
+import android.view.View;
+import android.widget.Toast;
 
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
@@ -23,4 +25,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
 
+    public void onBtnChangeClick(View view) {
+        Toast.makeText(this, "this code is running", Toast.LENGTH_LONG).show();
+    }
 }

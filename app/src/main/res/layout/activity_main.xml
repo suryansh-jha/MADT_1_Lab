@@ -8,6 +8,7 @@
     tools:context=".MainActivity">
 
     <TextView
+        android:id="@+id/textview"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Hello World!"
@@ -16,5 +17,14 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.176" />
+
+    <Button
+        android:id="@+id/btnchangetext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="clickme"
+        android:onClick="onBtnChangeClick"
+        tools:layout_editor_absoluteX="160dp"
+        tools:layout_editor_absoluteY="220dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
